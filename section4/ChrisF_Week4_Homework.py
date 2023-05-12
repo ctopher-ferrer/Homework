@@ -27,11 +27,11 @@ greeting("Chris")
 # Python Exception handling. Have your code example uses the 
 # try,except, else, and finally components.
 
-fav_number = input("\nWhat is your favorite number? ")
+fav_number = input("\nWhat is your favorite number (in digit format)? ")
 try:
     print("\nYour favorite number divided by 2 is...",int(fav_number)/2)
 except ValueError:
-    print("\nHey!!!! You didn't give a valid number....")
+    print("\nHey!!!! You didn't give a valid digit number....")
 else:
     print("\nThank you for putting a valid number!!")
 finally:
