@@ -116,10 +116,11 @@ order by count(a.stationId) desc
 
 ```
 ## Question 4: In your own words, Briefly explain Primary Keys and Foreign Keys. 
-```SQL
--- Primary Keys are unique values that identify each row/record in a table. They are never NULL values. A Foreign Key is a reference to another tables Primary Key which can be used to join/connect the tables together.
+<br>
+ Primary Keys are unique values that identify each row/record in a table. They are never NULL values. A Foreign Key is a reference to another tables Primary Key which can be used to join/connect the tables together.
 
-```
+<br>
+
 ## Question 5: Using EV Charging, For the folks who charged longer than one hour, show the min and max of the charging time for each user. Your output columns should be `userid`, `minTime`, and `maxTime`. Order this result set by the last two columns respectively. HINT: USE `HAVING`
 ```SQL
 
