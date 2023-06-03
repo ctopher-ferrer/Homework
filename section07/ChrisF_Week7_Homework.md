@@ -128,5 +128,6 @@ select userId, min(chargetimeHrs) as minTime, max(chargetimeHrs) as maxTime
 from EVCharging
 GROUP By userId
 HAVING min(chargeTimeHrs) > 1
+order by 2,3
 
 ```
